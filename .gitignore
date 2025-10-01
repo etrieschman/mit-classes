@@ -1,11 +1,11 @@
-.*
-!.gitignore
-!.gitkeep
-
-
 # Ignore all files inside any data folder
 **/data/**
 
 # But keep the folder structure itself
-!data/
-!data/**/
+!**/data/
+!**/data/**/
+
+# ignore hidden files
+.*
+!.gitignore
+!*.gitkeep
